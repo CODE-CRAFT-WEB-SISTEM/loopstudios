@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+:root {
+  --white-color: #fff;
+  --black-color: hsl(0, 0%, 0%);
+  --gray-color: hsl(0, 0%, 55%);
+  --darkGray-color: hsl(0, 0%, 41%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.primaryContainer {
+  width: 100%;
+  height: 600px;
+  background-image: url("../../public/mobile/image-hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  width: 90%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  align-items: center;
+  top: 5%;
+  color: var(--white-color);
+}
+
+.logoName {
+  font-weight: 800;
+  font-size: 25px;
+  font-family: "Alata", sans-serif;
+}
+
+nav ul {
+  display: none;
+  gap: 0.6rem;
+}
+
+.hamburguer {
+  font-size: 2em;
+  font-weight: 800;
+  border: 0;
+  background-color: transparent;
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: var(--white-color);
+}
+
+.sloggan {
+  font-family: "Josefin Sans", sans-serif;
+  width: 90%;
+  display: block;
+  border: 2px solid var(--white-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+}
+
+.sloggan h1 {
+  width: 100%;
+  font-weight: 310;
+  color: var(--white-color);
+  font-size: 2.4em;
+}
+
+/*  seconaryContainer  */
+
+.seconaryContainer {
+  margin-top: 7rem;
+}
+
+.seconaryContainer img {
+  margin: 0 auto;
+  width: 90%;
+  display: block;
+}
+
+.firstIllustration {
+  background-color: var(--white-color);
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.firstIllustration h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+/* thirdContainer */
+
+.thirdContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.roomContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxImage1 {
+  width: 90%;
+  margin: 0 auto;
+  height: 130px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../public/mobile/image-deep-earth.jpg");
+}
+
+.boxImage1 p {
+  width: 25%;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+  font-size: 27px;
+  top: 60%;
+  left: 20%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.boxImage2 {
+  width: 90%;
+  margin: 0 auto;
+  height: 130px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../public/mobile/image-night-arcade.jpg");
+}
+
+.boxImage2 p {
+  width: 25%;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+  font-size: 27px;
+  top: 60%;
+  left: 20%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: var(--white-color);
+}
+
+.boxImage3 {
+  width: 90%;
+  margin: 0 auto;
+  height: 130px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../public/mobile/image-soccer-team.jpg");
+}
+
+.boxImage3 p {
+  width: 25%;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+  font-size: 27px;
+  top: 60%;
+  left: 20%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: var(--white-color);
+}
+
+.boxImage4 {
+  width: 90%;
+  margin: 0 auto;
+  height: 150px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../public/mobile/image-grid.jpg");
+}
+
+.boxImage4 p {
+  width: 25%;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+  font-size: 27px;
+  top: 60%;
+  left: 20%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: var(--white-color);
+}
+
+.boxImage5 {
+  width: 90%;
+  margin: 0 auto;
+  height: 130px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../public/mobile/image-from-above.jpg");
+}
+
+.boxImage5 p {
+  width: 25%;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+  font-size: 27px;
+  top: 60%;
+  left: 20%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: var(--white-color);
+}
+
+.boxImage6 {
+  width: 90%;
+  margin: 0 auto;
+  height: 130px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../public/mobile/image-pocket-borealis.jpg");
+}
+
+.boxImage6 p {
+  width: 25%;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+  font-size: 27px;
+  top: 60%;
+  left: 20%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: var(--white-color);
+}
+
+.boxImage7 {
+  width: 90%;
+  margin: 0 auto;
+  height: 130px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../public/mobile/image-curiosity.jpg");
+}
+
+.boxImage7 p {
+  width: 25%;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+  font-size: 27px;
+  top: 60%;
+  left: 20%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: var(--white-color);
+}
+
+.boxImage8 {
+  width: 90%;
+  margin: 0 auto;
+  height: 130px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../public/mobile/image-fisheye.jpg");
+}
+
+.boxImage8 p {
+  width: 25%;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+  font-size: 27px;
+  top: 60%;
+  left: 20%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: var(--white-color);
+}
+
+.seeAllBtn {
+  padding: 0.6rem 2rem;
+  background-color: transparent;
+  border: 2px solid var(--black-color);
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 3px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.seeAllBtn:hover {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+.seeAllBtnTop {
+  display: block;
+}
+
+footer {
+    width: 100%;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    margin-top: 7rem;
+    font-family: "Alata", sans-serif;
+}
+
+footer h4 {
+  font-weight: 310;
+  color: var(--white-color);
+  font-size: 2.4em;
+  text-align: center;
+  padding: 4rem 0 2rem 0;
+}
+
+.menuFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.menuFooter a {
+    text-decoration: none;
+    text-align: center;
+    color: var(--white-color);
+}
+
+@media (max-width: 1024px) {
+  .seeAllBtnTop {
+    display: none;
+  }
+
+  .seeAllBtnBotton {
+    display: none;
+  }
+}
+
